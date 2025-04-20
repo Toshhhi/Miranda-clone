@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main{
+background-color: #222;
+overflow-x: hidden;
+}
+
+#page1{
+    height: 110vh;
+    width: 100vw;
+    background-color: #C3BBB2;
+    position: relative;
+    overflow: hidden;
+}
+
+#nav{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+#title{
+    height: 25.8px;
+    width: 172px;
+}
+
+#nav h5{
+    font-size: 15px;
+    font-weight: 10;
+}
+
+#banner{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#element1{
+    width: 30%;
+    height: 100%;
+    padding-right: 15px;
+}
+
+#element1 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+    color: #1C1C19;
+}
+
+#element1 h6{
+    font-size: 22px;
+    font-family: Domaine Disp Cond Medium;
+    font-weight: 100;
+    color: #1C1C19;
+}
+
+#element1 h4 span{
+    background-color: rgb(186, 66, 22);
+    color: #C3BBB2;
+    font-weight: 100;
+    font-size: 17px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#element2{
+    width: 35%;
+    height: 100%;
+    border-right: 1px solid rgb(83, 82, 82);
+    border-left:  1px solid rgb(83, 82, 82);
+    padding: 20px 60px;
+    text-align: center;
+}
+
+#element2 h2{
+
+    font-family: canopee;
+    font-size: 60px;
+    font-weight: 1;
+    margin-bottom: 10px;
+    color: #1C1C19;
+}
+
+#element2 p{
+    font-family: Domaine Disp Cond Medium;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: #1C1C19;
+}
+
+#element2 h6{
+    font-family: Domaine Disp Cond Medium;
+    font-size: 20px;
+    font-weight: 100;
+    color: #1C1C19;
+}
+
+#element3{
+    width: 30%;
+    height: 100%;
+    padding-left: 15px;
+}
+
+#element3 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+    color: #1C1C19;
+}
+
+#element3 h4 span{
+    background-color: rgb(186, 66, 22);
+    color: #C3BBB2;
+    font-weight: 100;
+    font-size: 17px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#element3 p{
+    font-size: 22px;
+    font-family: Domaine Disp Cond Medium;
+    font-weight: 5;
+    color: #1C1C19;
+}
+
+#image-div:hover img{
+scale: 1.1;
+}
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+    border: 1px solid #222;
+} 
+
+#element1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#element3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#page1 h1{
+    font-size: 490px;
+    font-family: canopee;
+    font-weight: 100;
+    background-color: #1C1C1A;
+    color: #C3BBB2;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 450px;
+}
+
+#page2{
+    height: 120vh;
+    width: 100%;
+    background-color:#C3BBB2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 30px;
+}
+
+#page2-left{
+height: 100%;
+width: 35%;
+padding-right: 40px;
+border-right: 1px solid #222;
+}
+
+#page2-left h2{
+    font-family: canopee;
+    font-size: 100px;
+    line-height: 120px;
+    font-weight: 100;
+    color: #1C1C19;
+}
+#page2-left h2 span{
+    margin-top: 0px;
+   font-size: 180px;
+   font-weight: 500;
+   color: #1C1C19;
+}
+
+#page2-left img{
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #222;
+}
+
+#page2-left p{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Domaine Disp Cond Medium;
+    font-weight:lighter;
+    color: #1C1C19;
+}
+
+#page2-right{
+    height: 100%;
+    width: 60%;
+}
+
+#page2-right img{
+    height: 55%;
+    width: 100%;
+    border: 1px solid #222;
+}
+
+#page2-right h1{
+    font-family: canopee;
+    object-fit: cover;
+    color: #1C1C19;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+#page3{
+    height: 50vh;
+    background-color:#C3BBB2;
+    position: relative;
+}
+
+#page3 h1{
+    font-size: 380px;
+    font-weight: 300;
+    width: 70%;
+    font-family: canopee;
+    color: #C3BBB2;
+    background-color:#1C1C19;
+    margin-left: 30px;
+    line-height: 350px;
+}
+
+#page3 img{
+    height: 90%;
+    position: absolute;
+    top: 0;
+    right: 4.2%;
+}
+
+
+#page4{
+    background-color: #C3BBB2;
+    width: 100%;
+    display: flex;
+  flex-direction: row; 
+  gap: 10px;
+  height: 115vh;
+}
+
+#page4-left{
+    width: 60%;
+   display: flex;
+  flex-direction: column;
+   align-items: center;
+  justify-content: center;
+  
+}
+
+#top{
+    display: flex;
+    height: 300px;
+}
+
+#top-left{
+width: 400px;
+height: 100%;
+padding: 10px 30px;
+border-right: 1px solid #222;
+}
+
+#top-left h1{
+    font-size: 55px;
+    font-family: canopee;
+    color: #1C1C19;
+}
+
+#top-left h3{
+    font-family: Domaine Disp Cond Medium;
+    font-size: 40px;
+    color: #1C1C19;
+}
+#bottom{
+    padding: 20px;
+}
+#bottom img{
+    width: 100%;
+    border: 1px solid #222;
+}
+
+#top-right{
+    padding: 10px 30px;
+    width: 40%;
+}
+
+#top-right img{
+    height: 160px;
+    margin-bottom: 10px;
+    border: 1px solid #222;
+}
+
+#page4-right{
+    width: 40%;
+    border-left:1px solid #222 ;
+    padding-left: 20px;
+}
+
+#page4-right h1{
+    font-family: canopee;
+    font-size: 100px;
+    color: #1C1C19;
+}
+#page4-right h1 span{
+    font-family: canopee;
+    font-weight: 500;
+    font-size: 190px;
+    color: #1C1C19;
+}
+
+#page4-right p{
+    font-size: 40px;
+    font-family: Domaine Disp Cond Medium;
+    color: #1C1C19;
+}
+
+#page4-right #oval{
+height: 150px;
+width: 90%;
+border: 1px solid black;
+border-radius: 60%;
+text-align: center;
+}
+#page4-right #oval h1{
+    margin-top:45px;
+    font-size: 60px;
+}
+
+
